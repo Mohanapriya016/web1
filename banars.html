@@ -1,0 +1,303 @@
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    .navbar-nav {
+        margin: 0 auto;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .navbar-nav li {
+        margin: 0 20px;
+    }
+
+    .flex-container {
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .discount {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: red;
+        color: white;
+        padding: 5px;
+        font-size: 14px;
+        border-radius: 5px;
+        z-index: 1;
+    }
+
+    .card:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease;
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+        background-color: #f9f9f9;
+        bottom: 0;
+    }
+
+    .footer-section ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-icons img {
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+        transition: transform 0.3s;
+    }
+
+    .social-icons img:hover {
+        transform: scale(1.2);
+    }
+    button:hover {
+        transform: scale(1.05);
+        color: red;
+    }
+    span img:hover
+    {
+        transform: scale(1.2); 
+    }
+    span img{
+        padding: 2px; ;
+    }
+</style>
+</head>
+
+<body>
+    <h6
+        style="background-color: white; padding: 10px; font-family: 'Times New Roman', Times, serif; color: dodgerblue;">
+        <b style="font-size: large;"><img src="img/air.png" alt="" width="2%" height="3%"><a href="#">Worldwide Shipping
+                Available</a></b>
+        <span style="float: right; color: black; font-size: large;">
+            <a href="#">Become a Supplier</a> |
+            <a href="#">Location</a> |
+            <a href="#">Line Enquiry</a>
+        </span>
+    </h6>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item" style="float: left; color: red; font-family: 'Times New Roman', Times, serif;">
+                        <h2>RASI GROUPS</h2>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <h5>Home</h5>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <h5><a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-expanded="false">
+                                Sarees
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="cotton.html">Cotton Sarees</a></li>
+                                <li><a class="dropdown-item" href="banars.html">Banaras Sarees</a></li>
+                                <li><a class="dropdown-item" href="silk.html"> Silk Sarees</a></li>
+                                <li><a class="dropdown-item" href="kota.html">Kota Sarees</a></li>
+                            </ul>
+                        </h5>
+                    </li>
+                    <li class="nav-item">
+                        <h5><a class="nav-link" href="login.html">Login</a></h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <span style="padding: 19px;">
+            <img src="img/icons8-like-48 (1).png" alt="" height="11%" width="14%"><img src="img/icons8-purchase-64.png" alt="" height="11%" width="14%">
+            <img src="img/icons8-card-accepted-64.png" alt="" height="11%" width="14%">
+            <img src="img/icons8-search-48 (1).png" alt="" height="11%" width="14%">
+        </span>
+    </nav>
+    <br>
+     <center><a href="banars.html"
+            style="font-size:x-large;color: rgb(11, 12, 12); font-family: 'Times New Roman', Times, serif;" ;>
+            <u>Banaras Sarees</u></a></center><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">17% Off</div>
+                    <img src="img/ba.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Banaras Saree</h5>
+                        <p class="card-text"><s style="color: red;">₹22,750.00</s> ₹16,488.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">10% Off</div>
+                    <img src="img/ba1.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Banaras Saree</h5>
+                        <p class="card-text"><s style="color: red;">₹17,950.00</s> ₹13,400.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">8% Off</div>
+                    <img src="img/ba2.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Banaras Saree</h5>
+                        <p class="card-text"><s style="color: red;">₹2,650.00</s> ₹1,100.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">15% Off</div>
+                    <img src="img/ba3.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Banaras Saree</h5>
+                        <p class="card-text"><s style="color: red;">₹2,300.00</s> ₹1,108.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <br><br>
+    <center><a href="banars.html"
+            style="font-size:x-large; color: rgb(7, 7, 7);font-family: 'Times New Roman', Times, serif; "><u>Georgette
+                Sarees</u></a></center><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">15% Off</div>
+                    <img src="img/ga.jpg" class="card-img-top" alt="Product 1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Georgette Saree
+                        </h5>
+                        <p class="card-text"><s style="color: red;">₹10,750.00</s> ₹7,488.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">9% Off</div>
+                    <img src="img/ga1.jpg" class="card-img-top" alt="Product 2">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Georgette Saree
+                        </h5>
+                        <p class="card-text"><s style="color: red;">₹9,110.00</s> ₹5,400.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">10% Off</div>
+                    <img src="img/ga2.jpg" class="card-img-top" alt="Product 3">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Georgette Saree
+                        </h5>
+                        <p class="card-text"><s style="color: red;">₹7,650.00</s> ₹4,100.00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="discount">7% Off</div>
+                    <img src="img/ga3.jpg" class="card-img-top" alt="Product 4">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-family: 'Times New Roman', Times, serif;">Georgette Saree
+                        </h5>
+                        <p class="card-text"><s style="color: red;">₹9,300.00</s> ₹7,108.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <br><br> 
+
+    <div class="footer-section" style="font-family: 'Times New Roman', Times, serif;">
+        <ul>
+            <li>
+                <h4 style="color: rgb(90, 90, 149);">About</h4>
+            </li>
+            <li>
+                <h5>There is no better attire than a saree to <br>bring alive the beauty of Indian women,<br> especially
+                    during weddings and other auspicious <br> For close to 15 years, RASI GROUPS has offered <br>
+                    saree lovers from across the city a <br> handpicked collection of exquisite drapes, <br> fresh off
+                    the looms, at
+                    competitive prices!</h5>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <h4 style="color: rgb(90, 90, 149);">Know More</h4>
+            </li>
+            <h5>
+                <li>Dashboard</li>
+                <li>Orders</li>
+                <li>Downloads</li>
+                <li>Address</li>
+                <li>Account Details</li>
+                <li>Lost Password</li>
+            </h5>
+        </ul>
+        <ul>
+            <li>
+                <h4 style="color: rgb(90, 90, 149);">Customer Policies</h4>
+                <h5>
+            <li>Privacy Policy</li>
+            <li>Returns & Exchange Policy</li>
+            <li>Cancellation Policy</li>
+            <li>Color Disclaimer</li>
+            <li>Pricing Information</li>
+            <li>Payment Policy</li>
+            </h5>
+        </ul>
+        <ul>
+            <li>
+                <h4 style="color: rgb(90, 90, 149);">
+                    <center>Follow Us</center>
+                </h4>
+            </li>
+            <li style="font-size: larger; font-family: 'Times New Roman', Times, serif;">Your Trusted Silk Sarees <br>  Destination Since 1900</li><br>
+            <li class="social-icons">
+                <a href="https://www.facebook.com/yourusername" target="_blank">
+                    <img src="img/face.png" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/priya-baby-016" target="_blank">
+                    <img src="img/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <img src="img/you.png" alt="YouTube">
+                </a><br><br>
+                <a href="https://wa.me/87548010?text=Hello%20there!" target="_blank">
+                    <img src="img/icons8-whatsapp-48.png" alt="WhatsApp">
+                </a>
+                <a href="https://wa.me/Mohana Priya?text=Hello%20there!" target="_blank">
+                    <img src="img/tel.png" alt="telegram">
+                </a>
+                <a href="https://wa.me/mohana162003@gmail.com?text=Hello%20there!" target="_blank">
+                    <img src="img/icons8-email-64.png" alt="telegram">
+                </a>
+            </li>
+        </ul>
+    </div>
+    <center >
+        <p>© Copyight 2024. All Rights Rasi Silks</p>
+    </center>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
